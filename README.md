@@ -1,24 +1,25 @@
 # NodeJS-SG
+
 Study group for Node.js(Express) enthusiasts
 
-## First time here? Start from the beginning else just pull from upstream(start from step 5) and continue with your task
+## First time here? Follow steps as given else just pull from upstream(start from step 5) and continue with your task
 
 Step 1: Click on Fork at the top right corner of the repo
 
-Step 2: Clone your forked repository i.e. `git clone <REPO LINK>`
+Step 2: Clone your forked repository i.e. `git clone https://github.com/DSC-Unilag/NodeJS-SG.git`
 
 Step 3: cd into the cloned folder | <code>cd NodeJS-SG</code>
 
 Step 4: <code>git remote add upstream https://github.com/DSC-Unilag/NodeJS-SG.git</code>
 
-Step 5: <code>git pull upstream week"week number"</code> e.g. <code>git pull upstream week2</code>
+Step 5: <code>git pull upstream week "week number"</code> e.g. <code>git pull upstream week 2</code>
 
 Step 6: Check out to the task branch | <code>git checkout -b <YOUR_NAME_WEEK_NUMBER></code>
 
 <code>e.g git checkout -b adamu_chukwuma_1</code>
 
-
 #### Creating a pull request
+
 Run <code>git branch</code> It should show that you are on your current branch
 
 After implementing your task
