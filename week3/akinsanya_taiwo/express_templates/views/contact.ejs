@@ -1,0 +1,76 @@
+<div class="contact">
+    <h2>Contact Us</h2>
+    <div class="items">
+        <div>&#x1f4de - 09026110242</div><br>
+        <div>&#9906 - Osogbo, Osun State</div><br>
+        <div>&#9993 - akinsanyataiwo00@gmail.com</div>
+    </div>
+</div><br>
+<hr/>
+<div class="message">
+    <h2>Send A Message</h2>
+    <form class="form" action="/contact" method="POST">
+        <input type="text" name="name" placeholder="Name"><br>
+        <textarea id="message" name="message" rows="15" cols="40" placeholder="Enter your message"></textarea><br>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+<%- include('partials/notificationBox') %>
+
+<style>
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        overflow-x: hidden;
+        position: relative;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 400px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    h2 {
+        margin-top: 0;
+    }
+
+    .message {
+        text-align: center;
+    }
+
+    input[type="text"], #message {
+        margin-bottom: 15px;
+        padding: 8px;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        width: 300px;
+    }
+
+    input[type="text"]:focus, #message:focus {
+        border: 2px solid orange;
+    }
+
+    input[type="submit"] {
+        padding: 8px;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        background-color: orange;
+        color: white;
+        width: 100px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        color: orange;
+        background-color: white;
+    }
+
+</style>
